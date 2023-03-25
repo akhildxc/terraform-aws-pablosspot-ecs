@@ -1,17 +1,17 @@
 variable "region" {
   description = "AWS region to create resources in"
   type        = string
-  default     = "ap-southeast-2"
+  default     = "ap-south-1"
 }
 
 variable "cluster_name" {
   type        = string
-  description = "ECS cluster name"
+  description = "ECS-demo"
 }
 
 variable "service_name" {
   type        = string
-  description = "ECS service name"
+  description = "ECS-service"
 }
 
 variable "task_family" {
